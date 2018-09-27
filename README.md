@@ -32,7 +32,7 @@ Algun componente que nos permita simular una puerta (en este caso la puerta de u
 A nivel software
 ```
 IDE de Arduino
-Libreria LowPower.zip
+Libreria Low-Power-master.ZIP
 ```
 
 ### Instalación 🔧
@@ -43,30 +43,28 @@ Libreria LowPower.zip
 *Dentro del IDE de arduino nos dirijimos a la pestaña programa >> Incluir libreria >> Añadir libreria .ZIP, en este punto ya debemos de tener la libreria Low-Power-master.ZIP descargada en el ordenador. 
 
 ```
-![diagrama.jpg](https://raw.github.com/JCerver/Smart-Alarm/diagrama.jpg)
+
 
 2. Armado de circuito. 
 
 ```
-*Se colocan todos los componentes hardware mencionados en nuestra tabla protoboard, siguiendo el siguiente diagrama del circuito, es importante añadir un condensador en paralelo con el reed switch para evitar la mayor cantidad de ruido posible, este proceso se le conoce como debounce y se ṕuede eliminar añadiendo un componente al circuito o mediante software.
+*Se colocan todos los componentes hardware mencionados en nuestra tabla protoboard, siguiendo el siguiente
+diagrama del circuito, es importante añadir un condensador en paralelo con el reed switch para evitar la 
+mayor cantidad de ruido posible, este proceso se le conoce como debounce y se ṕuede eliminar añadiendo
+un componente al circuito o mediante software.
+
+```
+![diagrama](https://github.com/JCerver/Smart-Alarm/blob/master/diagrama.jpg)
+
+3. Importar el codigo al entorno de desarrollo. 
+
+```
+*Se descarga el archivo Smart_Alarm.ino del repositorio y se abre con el IDE de arduino, dentro del codigo
+se explica a detalle cada una de las instrucciones que lo conforman, se carga y compila.
 
 ```
 
-1. Importar la libreria en el entorno de desarrollo. 
-
-```
-*Dentro del IDE de arduino nos dirijimos a la pestaña programa >> Incluir libreria >> Añadir libreria .ZIP
-
-```
-
-
-_Y repite_
-
-```
-hasta finalizar
-```
-
-_Finaliza con un ejemplo de cómo obtener datos del sistema o como usarlos para una pequeña demo_
+A partir de estas instrucciones podemos tener algo similar a las siguientes imagenes:
 
 ## Ejecutando las pruebas ⚙️
 
@@ -88,21 +86,19 @@ _Explica que verifican estas pruebas y por qué_
 Da un ejemplo
 ```
 
-## Deployment 📦
 
-_Agrega notas adicionales sobre como hacer deploy_
 
 ## Construido con 🛠️
 
-_Menciona las herramientas que utilizaste para crear tu proyecto_
+La herramienta clave para este proyecto es la libreria Low-Power-master.ZIP 
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - El framework web usado
-* [Maven](https://maven.apache.org/) - Manejador de dependencias
-* [ROME](https://rometools.github.io/rome/) - Usado para generar RSS
+* [rocketscream/Low-Power](https://github.com/rocketscream/Low-Power) Con la librería lowpower es muy fácil poner en modo sleep a Arduino con una línea como: LowPower.powerDown(SLEEP_8S, ADC_OFF, BOD_OFF);
 
-## Contribuyendo 🖇️
 
-Por favor lee el [CONTRIBUTING.md](https://gist.github.com/villanuevand/xxxxxx) para detalles de nuestro código de conducta, y el proceso para enviarnos pull requests.
+## Como contribuir 🖇️
+
+Si deseas contribuir o realizar modificaciones en el proyecto, proximamente se tendra el archiv CONTRIBUTING.md
+,favor de leer el [CONTRIBUTING.md](https://gist.github.com/villanuevand/xxxxxx) para detalles de nuestro código de conducta, y el proceso para enviarnos pull requests al proyecto.
 
 ## Versionado 📌
 
@@ -110,20 +106,23 @@ Usamos [SemVer](http://semver.org/) para el versionado. Para todas las versiones
 
 ## Autores ✒️
 
-_Menciona a todos aquellos que ayudaron a levantar el proyecto desde sus inicios_
 
-* **Andrés Villanueva** - *Trabajo Inicial* - [villanuevand](https://github.com/villanuevand)
-* **Fulanito Detal** - *Documentación* - [fulanitodetal](#fulanito-de-tal)
+* **Jose Guadalupe de Jesus Cervera Barbosa** - *Trabajo Inicial y Documentación * - [JCerver](https://github.com/JCerver)
 
-También puedes mirar la lista de todos los [contribuyentes](https://github.com/your/project/contributors) quíenes han participado en este proyecto. 
+
+También puedes mirar la lista de todos los [contribuyentes](https://github.com/JCerver/Smart-Alarm/graphs/contributors) quíenes han participado en este proyecto. 
 
 ## Licencia 📄
 
-Este proyecto está bajo la Licencia (Tu Licencia) - mira el archivo [LICENSE.md](LICENSE.md) para detalles
+Copyright (c) 2018, jose guadalupe cervera
+Todos los derechos reservados.
+
+
+ESTE SOFTWARE ES PROPORCIONADO POR LOS TITULARES DE LOS DERECHOS DE AUTOR Y SUS COLABORADORES "TAL CUAL" Y SE RENUNCIA A CUALQUIER GARANTÍA EXPRESA O IMPLÍCITA, INCLUIDAS, ENTRE OTRAS, LAS GARANTÍAS IMPLÍCITAS DE COMERCIABILIDAD E IDONEIDAD PARA UN PROPÓSITO DETERMINADO. EN NINGÚN CASO EL TITULAR DE LOS DERECHOS DE AUTOR O SUS COLABORADORES SERÁN RESPONSABLES DE NINGÚN DAÑO DIRECTO, INDIRECTO, INCIDENTAL, ESPECIAL, EJEMPLAR O CONSECUENCIAL (INCLUIDOS, ENTRE OTROS, LA ADQUISICIÓN DE BIENES O SERVICIOS SUSTITUTOS, LA PÉRDIDA DE USO, LOS DATOS O LAS GANANCIAS; O INTERRUPCIÓN DEL NEGOCIO) SIN EMBARGO Y EN CUALQUIER TEORÍA DE RESPONSABILIDAD, YA SEA EN CONTRATO, RESPONSABILIDAD ESTRICTA O AGRAVIO (INCLUYENDO NEGLIGENCIA O DE OTRO MODO) QUE SURJA DE CUALQUIER FORMA DEL USO DE ESTE SOFTWARE, AUN CUANDO SE HAYA ADVERTIDO DE LA POSIBILIDAD DE DICHO DAÑO.
 
 ## Expresiones de Gratitud 🎁
 
-* Comenta a otros sobre este proyecto 📢
-* Invita una cerveza 🍺 a alguien del equipo. 
-* Da las gracias públicamente 🤓.
-* etc.
+* A partir de este proyecto pueden surgir gran cantidades de variaciones a realizar sobre el, es curioso la manera
+en que se utiliza un ataud para simular la puerta, con esto se puede mejorar para crear algo interesante para este dia 
+de muerto, lo dejo a su imaginación📢
+* Solo fue la base o plantilla de este proyecto, si tienes alguna idea por favor hazmelo saber.
