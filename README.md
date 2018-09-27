@@ -98,11 +98,8 @@ La herramienta clave para este proyecto es la libreria Low-Power-master.ZIP
 ## Como contribuir 🖇️
 
 Si deseas contribuir o realizar modificaciones en el proyecto, proximamente se tendra el archiv CONTRIBUTING.md
-,favor de leer el [CONTRIBUTING.md](https://gist.github.com/villanuevand/xxxxxx) para detalles de nuestro código de conducta, y el proceso para enviarnos pull requests al proyecto.
+,favor de leer el [CONTRIBUTING.md](https://github.com/JCerver/Smart-Alarm/blob/master/CONTRIBUTING.md) para detalles de nuestro código de conducta.
 
-## Versionado 📌
-
-Usamos [SemVer](http://semver.org/) para el versionado. Para todas las versiones disponibles, mira los [tags en este repositorio](https://github.com/tu/proyecto/tags).
 
 ## Autores ✒️
 
