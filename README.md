@@ -65,26 +65,28 @@ se explica a detalle cada una de las instrucciones que lo conforman, se carga y 
 ```
 
 A partir de estas instrucciones podemos tener algo similar a las siguientes imagenes:
+![Circuito1](https://github.com/JCerver/Smart-Alarm/blob/master/circuitoArmado1.jpg)
+![Circuito2](https://github.com/JCerver/Smart-Alarm/blob/master/circuitoArmado2.jpg)
 
 ## Ejecutando las pruebas ⚙️
 
-_Explica como ejecutar las pruebas automatizadas para este sistema_
+El funcionamiento del circuito consiste en activar una alarma al momento de que se abra la puerta, con esta acción, se debe encender la alarma mediante el buzzer y prender un LED, El momento en que el sistema se encuentre cerrado, el circuito debera
+estar en un estado maximo de ahorro de energia, es decir, mientras la alarma no suene, se debe ahorrar la mayor cantidad de 
+consumo de energia posible.
 
-### Analice las pruebas end-to-end 🔩
+### Analisis de prueba end-to-end 🔩
 
-_Explica que verifican estas pruebas y por qué_
+La prueba consiste en verificar que realmente se esta encendiendo la alarma. Dentro de ataud se cuenta con 2 superficies, 
+la parte inferior y la parte superior (tapa del ataud), en la parte inferior se cuenta con un reed switch que consiste en un interruptor o sensor es un pequeño bulbo de vidrio con dos contactos que se atraen en presencia de un campo magnético (el imán). Este esta conectado al circuito mediante cables caimanes. 
 
-```
-Da un ejemplo
-```
-
-### Y las pruebas de estilo de codificación ⌨️
-
-_Explica que verifican estas pruebas y por qué_
+en la parte superior se cuenta con un iman cuya funcion sera activar o desactivar el interruptor de la parte inferior, gracias
+a la presencia de su campo magnetico apagará o encenderá el interruptor. 
 
 ```
-Da un ejemplo
+Como se puede apreciar en las siguientes imagenes, la prueba resulto exitosa, cumpliendo con el objetivo del proyecto.
 ```
+![Prueba](https://github.com/JCerver/Smart-Alarm/blob/master/prueba.png)
+![Prueba1](https://github.com/JCerver/Smart-Alarm/blob/master/prueba1.png)
 
 
 
