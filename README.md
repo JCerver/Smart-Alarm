@@ -43,6 +43,7 @@ Libreria LowPower.zip
 *Dentro del IDE de arduino nos dirijimos a la pestaña programa >> Incluir libreria >> Añadir libreria .ZIP, en este punto ya debemos de tener la libreria Low-Power-master.ZIP descargada en el ordenador. 
 
 ```
+![diagrama.jpg](https://raw.github.com/JCerver/Smart-Alarm/diagrama.jpg)
 
 2. Armado de circuito. 
 
