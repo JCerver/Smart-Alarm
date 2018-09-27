@@ -11,7 +11,7 @@ hay muchos proyectos en los que hay que realizar acciones periódicas de tarde e
 
 ## Comenzando 🚀
 
-_Estas instrucciones te permitirán obtener una copia del proyecto en funcionamiento en tu máquina local para propósitos de desarrollo y pruebas._
+A continuacion se presentan las siguientes instrucciones para obtener una copia del proyecto en funcionamiento en nuestra máquina local para propósitos de desarrollo y pruebas.
 
 
 ### Pre-requisitos 📋
@@ -37,12 +37,27 @@ Libreria LowPower.zip
 
 ### Instalación 🔧
 
-Importando la libreria en el entorno de desarrollo 
+1. Importar la libreria en el entorno de desarrollo. 
+
+```
+*Dentro del IDE de arduino nos dirijimos a la pestaña programa >> Incluir libreria >> Añadir libreria .ZIP, en este punto ya debemos de tener la libreria Low-Power-master.ZIP descargada en el ordenador. 
+
+```
+
+2. Armado de circuito. 
+
+```
+*Se colocan todos los componentes hardware mencionados en nuestra tabla protoboard, siguiendo el siguiente diagrama del circuito, es importante añadir un condensador en paralelo con el reed switch para evitar la mayor cantidad de ruido posible, este proceso se le conoce como debounce y se ṕuede eliminar añadiendo un componente al circuito o mediante software.
+
+```
+
+1. Importar la libreria en el entorno de desarrollo. 
 
 ```
 *Dentro del IDE de arduino nos dirijimos a la pestaña programa >> Incluir libreria >> Añadir libreria .ZIP
 
 ```
+
 
 _Y repite_
 
